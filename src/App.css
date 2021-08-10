@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body
+{
+  /* background-image: url(https://media.smallbiztrends.com/2015/12/todo-list.jpg); */
+/* background-color: hsl(141, 51%, 90%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.header-todo{
+/* background-color: hsl(141, 51%, 85%); */
+position: sticky;
+width: 100%;
+height: 3rem;
+text-align: center;
+align-items: center;
+display: flex;
+}
+
+.head{
+  text-align: center;
+  font-size: 2rem;
+}
+
+ .todo-block{
+  display: flex;
+  justify-content: center;
+  /* margin-right:10rem; */
+  text-align: center;
+
+}
+
+.todo{
+  width: 70%;
+  text-align: center;
+}
+
+
+.todo-items{
+  width: 100%;
+  text-align: center;
+}
+
+.todo-list{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.screen{
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ } 
+
+ .add{
+   text-align: center;
+ }
+.trash{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.input{
+  --secondary:green;
+}
+
+.input-title {
+  padding: 1rem;
+  /* margin: 1rem; */
+  
+  
+}
+
+.input-desc {
+  padding: 1rem;
+  color: rgb(247, 0, 255);
+}
